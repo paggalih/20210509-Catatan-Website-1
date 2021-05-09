@@ -1,1 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
+   <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Fira+Sans" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"  rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+    <title>Catatan Website - Situs Tutorial Terlengkap Berbagai Bahasa Pemrograman</title>
+    <link rel = "icon" href = "https://raw.githubusercontent.com/paggalih/paggalih.github.io/main/icon%20dan%20logo/logo%20icon.png" type = "image/x-icon">
+
+<style>
+body {
+    /* padding-top: 20px; */
+    padding-bottom: 40px;
+    padding-left: 20px;
+    /* font-family: 'Fira Sans', sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: "Computer Modern Sans", sans-serif;
+    /* font-family: 'Pacifico', serif; */
+    /* text-shadow: 4px 4px 4px #aaa; */
+    /* margin-left: 10px; */
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  /* position: fixed; */
+}
+
+/* .navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+} */
+
+/* .dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 40px;
+    /* border-top: 1px dashed rgba(0,0,0); */
+    background-color: rgba(0,0,0);
+}
+
+.footer li ul {
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.footerMenu {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+.footerMenu li {
+list-style: none;
+float: left;
+font-size: 16px;
+padding: 12px 14px 14px 14px;
+color: rgb(255, 255, 255);
+border-right: 1px solid white;
+background: rgba(0,0,0);
+}
+.footerMenu li:hover {
+    /* color: rgb(255,255,255); */
+    background-color: rgb(255, 0, 0);
+}
+
+.footerMenu li ul.dropupMenu {
+    display: none;
+    border: 10px double black;
+    text-align: left;
+}
+.footerMenu li:hover ul.dropupMenu {
+    display: block;
+    position: absolute;
+    margin: 0 0 0 -15px;
+    bottom: 40px;
+    /* border: 1px solid black; */
+    border-bottom: none;
+    background: rgba(255, 255, 255);
+}
+.footerMenu li:hover li {
+    float: none;
+    background: none;
+    /* color: white; */
+    /* border: none; */
+    /* border-bottom: 1px solid black; */
+    /* border-top: 1px solid black; */
+    padding: 12px 10px 12px 10px;
+}
+.footerMenu li ul.dropupMenu li:hover {
+    background-color: rgba(255, 0, 0,0.5);
+    color: white;
+}
+
+.container{
+    width: 100%;
+}
+.container p{
+    font-size: larger; 
+    /* line-height: 20px; */
+}
+.container h1{
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.container figcaption{
+    text-align: center; margin-right: 0%; color: blue;
+}
+
+mark{
+    color: white;
+    background-color: blue ;
+}
+
+.wrapper { 
+    background:#EFEFEF; 
+    box-shadow: 1px 1px 10px #999; 
+    margin: auto; 
+    text-align: center; 
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px !important;
+    width: 90%;
+    padding-top: 5px;            
+}
+.scrolls { 
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: auto;
+    white-space:nowrap
+} 
+
+.border-highlight{
+    border:2px dashed yellow;  
+    padding:0.03em 0.25em;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<!-- <div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown<i class="material-icons" style="font-size: 100%;color:red;">home</i> 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+</div> -->
+
+<div class="container">
+    <h1>CATATAN WEBSITE</h1><h2><span class="border-highlight">Situs Tutorial Terlengkap Beraneka Bahasa Pemrograman</span></h2>
+
+    <p>Pada kesempatan kali ini saya akan bahas sebuah situs yang <mark> menyediakan tutorial </mark> banyak sekali bahasa pemrograman. Situs ini melengkapi tutorial yang diberikan dengan editor. Sehingga jika kita penasaran, kita dapat langsung mengubah-ubah dan bermain dengan <i> syntax </i> atau kodingan yang diberikan oleh website ini. Website ini adalah </p>
+    <a href="https://www.w3schools.com/" style="text-align: center;" target="_blank"><h2>W3schools</h2></a>
+    <!-- Image diunggah ke devianart -->
+    <figure>
+        <div class="wrapper">
+            <div class="scrolls">
+                 <img src="https://raw.githubusercontent.com/paggalih/20210509-Catatan-Website-1/main/gambar/Screenshot%20(128).png" height="500">                
+                </div>
+            </div>        
+        <figcaption >Gambar 1: Terlihat beraneka ragam tutorial bahasa pemograman yang disajikan.</figcaption>
+    </figure>
+
+    <p>Seperti yang tertera pada gambar di atas kita dapat belajar bahasa pemograman <mark> HTML, CSS, PHP, JavaScript </mark> untuk membuat situs atau <i>website</i>. Sekedar informasi, sebagian besar struktur situs ini (<a href="https://paggalih.github.io">paggalih.github.io</a>) juga merupakan hasil inspirasi dari situs W3schools ini. Terutama penulis sangat berterima kasih kepada W3schools yang telah memberi arahan penulis bagaimana memberikan dekorasi dan hiasan pada teks HTML. </p>
+    <p>Tidak hanya itu, situs ini juga memberikan tutorial untuk bahasa pemograman <mark>C++, Java, Python</mark> yang berguna untuk membuat pemograman fungsional. Seperti kita tahu, bahwa Python saat ini sangat digemari oleh statistikawan seluruh dunia. Karena Python menyediakan banyak <i>free tool</i> untuk menyelesaikan masalah-masalah yang muncul jika berurusan dengan data yang besar (<i>Big data</i>)</p>
+
+    <figure>
+        <div class="wrapper">
+            <div class="scrolls">
+                 <img src="https://raw.githubusercontent.com/paggalih/20210509-Catatan-Website-1/main/gambar/Screenshot%20(129).png" height="500">                
+                </div>
+            </div>        
+        <figcaption >Gambar 1: Terlihat beraneka ragam kuis dan latihan bahasa pemograman.</figcaption>
+    </figure>
+
+    <p>Situs ini menjadi semakin lengkap dan sempurna dengan kehadiran latihan dan kuis pada setiap bahasa pemrograman. Pembaca dan pembelajar dapat langsung mengevaluasi hasil pembelajaran yang didapatkan dari situs ini pada fasilitasi kuis dan latihan ini.</p>
+
+    <p>Terima kasih <a href="https://w3schools.com">W3schools</a> atas ilmunya. Saya berharap akan semakin banyak situs seperti ini dan <mark> tetap gratis </mark>. Hehehe</p>
+    
+</div>
+
+<div class="footer">
+    <ul class="footerMenu">
+        <li> <i class="material-icons" style="font-size: 100%;color:red;">menu_open</i>Daftar Menu
+            <ul class="dropupMenu">
+                <li ><a href="https://paggalih.github.io"><i class="material-icons" style="font-size: 150%;color:red;">home</i>Beranda</a></li>
+            </ul>
+        </li>
+        <li> <i class="material-icons" style="font-size: 100%;color:red;">manage_accounts</i>Daftar Akun
+            <ul class="dropupMenu">
+                <li><a href="https://scholar.google.com/citations?user=pD6nbRIAAAAJ&hl=en&oi=ao" target="_blank"><i class="material-icons" style="font-size: 150%;color:red;">school</i>Google Scholar</a></li>
+                <li><a href="https://www.researchgate.net/profile/Galih-Pradananta" target="_blank"><i class="material-icons" style="font-size: 150%;color:red;">science</i>Researchgate</a></li>
+            </ul>
+        </li>
+        <li> <i class="material-icons" style="font-size: 100%;color:red;">history_edu</i>Daftar Afiliasi
+            <ul class="dropupMenu">
+                <li><a href="https://www.facebook.com/sdnegeritumpuk/" target="_blank"><i class="material-icons" style="font-size: 150%;color:red;">square_foot</i>SDN Tumpuk</a></li>
+                <li><a href="https://smpn1trenggalek.sch.id" target="_blank"><i class="material-icons" style="font-size: 150%;color:red;">gite</i>SMPN 1 Trenggalek</a></li>
+                <li><a href="https://edukasi.kompas.com/read/2012/09/25/2111571/~Edukasi~News" target="_blank"><i class="material-icons" style="font-size: 150%;color:red;">school</i>SMAN SBBS</a></li>
+                <li><a href="http://www.math.itb.ac.id" target="_blank"><i class="material-icons" style="font-size: 150%;color:red;">local_library</i>Institut Teknologi Bandung</a></li>
+                <li><a href="https://febi.iain-tulungagung.ac.id" target="_blank"><i class="material-icons" style="font-size: 150%;color:red;">laptop_chromebook</i>IAIN Tulungagung</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
